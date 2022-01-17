@@ -47,14 +47,3 @@ header.title{
     height: 100%;
 }
 
-.grid{
-    position: relative;
-    width: 100%;
-}
-
-grid.item{
-    position: absolute;
-    display:block;
-    padding: 0;
-    margin: 10px;
-}
