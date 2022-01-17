@@ -2,14 +2,13 @@
     "use strict";
     
     var Images = [
-        'Duclos_pic.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Colour-Storm.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Electric-Water.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Lime-Drops.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Natural-Bubbles.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Nice-Try.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Peach-Hexagon.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Room-303.jpg'
+        'img/Duclos_pic.jpg',
+        'img/Duclos_text.jpg',
+        'img/Ferreira_pic.jpg',
+        'img/Ferreira_text.jpg',
+        'img/Fontes_pic.jpg',
+        'img/Fontes_text.jpg',
+        'img/Freitas_pic.jpg',
     ];
 
     function getRandomImage(images) {
