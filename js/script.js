@@ -36,11 +36,7 @@
 
 const grid = new Muuri('.grid',{
     layout: {
-        fillGaps: true,
-        horizontal: true,
-        alignRight: true,
-        alignBottom: true,
-        rounding: true,
+        rounding: false,
       },
 });
 
