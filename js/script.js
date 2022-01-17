@@ -33,3 +33,14 @@
     $("#picture2").append(getRandomImage(Images2));
 
 })();
+
+const grid = new Muuri('.grid',{
+    layout: {
+        fillGaps: true,
+        horizontal: true,
+        alignRight: true,
+        alignBottom: true,
+        rounding: true,
+      },
+});
+
