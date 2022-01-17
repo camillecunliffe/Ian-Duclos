@@ -20,7 +20,9 @@ button{
     text-align: center;
     background: transparent;
     font-size: 25px;
-    color: purple;
+    border: none;
+    margin: 20px;
+    color: white;
 }
 
 #picture {
