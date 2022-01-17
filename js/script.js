@@ -24,7 +24,7 @@
     function getRandomImage(images) {
         var num = Math.floor(Math.random() * images.length),
             pic = images[num],
-            imgString = `<img src="${pic}" />`;
+            imgString = '<img src="' + pic + '" height="50%" width="auto" />';
 
         return imgString;
     }
