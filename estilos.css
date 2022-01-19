@@ -47,7 +47,7 @@ button{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    margin: 50px;
+    margin: auto;
 }
 
 .grid-item{
