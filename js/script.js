@@ -1,7 +1,7 @@
 (function() {
     "use strict";
     
-    var Images = [
+    var images = [
         'img/Duclos_pic.jpg',
         'img/Duclos_text.jpg',
         'img/Ferreira_pic.jpg',
@@ -33,13 +33,14 @@
 
 
 
-    function getRandomImage(images) {
+    function getRandomImages(images) {
         var num = Math.floor(Math.random() * (images.length / 2)),
-            pic = images[num * 2],
-            pic2 = images[num * 2 + 1],
-            imgStringArray = ['<img src="' + pic + '" height="50%" width="auto" />', '<img src="' + pic2 + '" height="50%" width="auto" />'];
+            pic = images[num * 2+ 1],
+            pic2 = images[num * 2],
+            imgStringArray = ['<img src="' + pic + '" height="80%" width="auto" />', '<img src="' + pic2 + '" height="80%" width="auto" />'];
 
         return imgStringArray;
+        print(imgStringArray) 
     }
 
     var randomImages = getRandomImages(images)
