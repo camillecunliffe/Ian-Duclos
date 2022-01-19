@@ -16,35 +16,35 @@
         'img/Jesus_pic.jpg',
         'img/Jesus_text.jpg',
         'img/Martins_pic.jpg',
-    ];
-
-    var Images2 = [
         'img/Martins_text.jpg',
         'img/Mesquita_pic.jpg',
         'img/Mesquita_text.jpg',
-        'img/Monteiro_Judgement_pic.jpg',
-        'img/Monteiro_Judgement_text.jpg',
-        'img/Monteiro_TheJudge_pic.jpg',
-        'img/Monteiro_TheJudge_text.jpg',
-        'img/Monteiro_TheSun_pic.jpg',
-        'img/Monteiro_TheSun_text.jpg', 
+        'img/MonteiroJudgement_pic.jpg',
+        'img/MonteiroJudgement_text.jpg',
+        'img/MonteiroTheJudge_pic.jpg',
+        'img/MonteiroTheJudge_text.jpg',
+        'img/MonteiroTheSun_pic.jpg',
+        'img/MonteiroTheSun_text.jpg', 
         'img/Souza_pic.jpg',
         'img/Souza_text.jpg',
         'img/Torresan_pic.jpg',
         'img/Torresan_text.jpg',
     ];
 
-    function getRandomImage(images) {
-        var num = Math.floor(Math.random() * images.length),
-            pic = images[num],
-            imgString = '<img src="' + pic + '" height="50%" width="auto" />';
 
-        return imgString;
+
+    function getRandomImage(images) {
+        var num = Math.floor(Math.random() * (images.length / 2)),
+            pic = images[num * 2],
+            pic2 = images[num * 2 + 1],
+            imgStringArray = ['<img src="' + pic + '" height="50%" width="auto" />', '<img src="' + pic2 + '" height="50%" width="auto" />'];
+
+        return imgStringArray;
     }
 
-    $("#picture").append(getRandomImage(Images));
-    $("#picture2").append(getRandomImage(Images2));
+    var randomImages = getRandomImages(images)
+
+    $("#picture").append(randomImages[0]);
+    $("#picture2").append(randomImages[1]);
 
 })();
-
-
