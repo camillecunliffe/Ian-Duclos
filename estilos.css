@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-align: left;
+    
 }
 body{
     background: black;
@@ -35,23 +35,17 @@ ol {
 h1 {
     display: block;
     font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
 
 h2 {
     display: block;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1em;
     font-weight: normal;
 }
 .desc{
-    width: 80%;
-    display: inline-block;
-    margin: auto;
+    width: 90%;
 }
 button{
     text-align: center;
@@ -91,12 +85,16 @@ button{
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: 'navigation heading nav';
-    gap:30px;
+    gap: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .grid-item{
-    padding: 30px;
+    padding-left: 2rem;
+    height: fit-content;
+    line-height: 0.8em;
+}
 }
 
 .title  {
