@@ -96,6 +96,12 @@ button{
     line-height: 0.8em;
 }
 
+a{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal; 
+    color: violet;
+}
 
 .title  {
     text-align: left;
