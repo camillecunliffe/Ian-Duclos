@@ -11,6 +11,11 @@ body{
     color: white;
 }
 
+.descp{
+    max-width: 90vw;
+    width:90%;
+    margin: auto;
+}
 a{
     text-decoration: none;
 }
@@ -49,6 +54,13 @@ button{
     justify-content: center;
     margin: auto;
     height: 90vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 'navigation heading nav';
+    gap:30px;
 }
 
 .grid-item{
