@@ -43,6 +43,7 @@ h2 {
 }
 .desc{
     width: 90%;
+    text-align: left;
 }
 button{
     text-align: center;
