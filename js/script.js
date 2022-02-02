@@ -112,11 +112,11 @@ mySounds = [
 'mp3/Jesus_poem.mp3', ]
 
 function randomSound(sounds) {
-    var num = Math.floor(Math.random() * 1000) % mySounds.length,
+    var index = Math.floor(Math.random() * 1000) % mySounds.length,
     sounds1 = sounds[num * 2],
     sounds2 = sounds[num * 2 + 1];
 
-    $("#sounds1").playSound(mySounds[0]);
-    $("#sounds2").playSound(mySounds[1]);   
+    $("#sounds1").playSound(mySounds[index]);
+    $("#sounds2").playSound(mySounds[index]);   
 }
 
