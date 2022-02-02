@@ -43,6 +43,7 @@ h2 {
 }
 .desc{
     width: 90%;
+    margin: auto;
     text-align: left;
 }
 button{
@@ -52,6 +53,10 @@ button{
     border: none;
     margin: 20px;
     color: white;
+}
+
+li {
+    padding: 10px;
 }
 
 #picture {
@@ -98,6 +103,7 @@ a {
     line-height: 1em;
     font-weight: normal; 
     color: blueviolet;
+    text-decoration: none;
 }
 
 .title  {
