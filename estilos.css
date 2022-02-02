@@ -88,6 +88,7 @@ button{
     gap: 30px;
     flex-direction: column;
     flex-wrap: nowrap;
+    border-bottom: white solid 1.5px;
 }
 
 .grid-item{
