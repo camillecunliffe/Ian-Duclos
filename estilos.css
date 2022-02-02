@@ -48,6 +48,7 @@ button{
     grid-template-columns: auto auto;
     justify-content: center;
     margin: auto;
+    height: 90vh;
 }
 
 .grid-item{
