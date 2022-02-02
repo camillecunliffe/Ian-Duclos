@@ -108,6 +108,14 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: white;
+}
+
 .title  {
     text-align: left;
     color: white;
