@@ -89,6 +89,14 @@ li {
     height: 90vh;
 }
 
+.audio-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: auto;
+    height: fit-content;
+}
+
 .grid{
     display: flex;
     gap: 10px;
