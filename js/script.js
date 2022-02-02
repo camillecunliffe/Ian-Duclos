@@ -117,7 +117,6 @@ function randomSound(sounds) {
     sounds2 = sounds[num * 2 + 1];
 
     $("#sounds1").playSound(mySounds[0]);
-    $("#sounds2").playSound(mySounds[1]);
-    
+    $("#sounds2").playSound(mySounds[1]);   
 }
 
