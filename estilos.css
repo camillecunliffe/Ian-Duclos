@@ -11,15 +11,12 @@ body{
     color: white;
 }
 
-.container{
+.container {
     margin: auto;
     text-align: left;
     display: inline-flex;
     flex-direction: column;
     padding: 4rem 2rem;
-}
-a{
-    text-decoration: none;
 }
 
 ol {
@@ -93,15 +90,13 @@ button{
 
 .grid-item{
     padding-left: 2rem;
-    height: fit-content;
-    line-height: 0.8em;
 }
 
-a{
+a {
     font-size: 1.3em;
     line-height: 1em;
     font-weight: normal; 
-    color: violet;
+    color: blueviolet;
 }
 
 .title  {
