@@ -113,6 +113,7 @@
 
         return imgStringArray;
         print(imgStringArray) 
+        console.log(imgStringArray)
     }
 
     var randomImages = getRandomImages(images)
