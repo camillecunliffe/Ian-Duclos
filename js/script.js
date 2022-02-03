@@ -62,7 +62,7 @@
         'img/wriedt_text.jpg',
     ];
 
-    mySounds = [    
+    var mySounds = [    
         'mp3/Almeida_poem_bg.mp3',
         'mp3/Bernardo_combackground.mp3', 
         'mp3/Borges_Poem_bg.mp3',
@@ -106,7 +106,7 @@
             pic = images[num * 2],
             pic2 = images[num * 2 + 1],
             randomSound = mySounds[num]
-            imgStringArray = ['<img src="' + pic + '" height="80%" width="auto" />',
+            var imgStringArray = ['<img src="' + pic + '" height="80%" width="auto" />',
                              '<img src="' + pic2 + '" height="80%" width="auto" />', 
                              randomSound
                             ];
