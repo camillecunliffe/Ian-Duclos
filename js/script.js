@@ -78,8 +78,27 @@
         'mp3/Gröpper_Poem_bg.mp3',
         'mp3/guimaraes_poem_bg.mp3',
         'mp3/Jesus_poem_bg.mp3',
-    
+        '',
+        //'mp3/Klopotar_poem_bg.mp3',
+        'mp3/Macedo_poem_bg.mp3',
+        'mp3/Marques_poem_bg.mp3',
+        'mp3/Martins_poem_bg.mp3',
+        '',
+        //'mp3/Mendes_poem.mp3',
+        'mp3/Mesquita_poem_bg.mp3',
+        'mp3/Monteiro_Judgement_poem_bg.mp3',
+        'mp3/Monteiro_TheFool_poem_bg.mp3',
+        'mp3/Monteiro_TheSun_poem_bg.mp3',
+        'mp3/Osório_poem_bg.mp3.mp3',
+        'mp3/Pimenta_poem_bg.mp3',
+        'mp3/pinho_poem_bg.mp3',
+        //'mp3/Santana_poem.mp3',
+        'mp3/Souza_poem_bg.mp3',
+        'mp3/Torresan_poem_bg.mp3',
+        'mp3/wriedt_poem_pg.mp3',
     ];
+
+    
 
 
     function getRandomImages(images) {
