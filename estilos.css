@@ -86,7 +86,7 @@ li {
     grid-template-columns: auto auto;
     justify-content: center;
     margin: auto;
-    height: 90vh;
+    height: 80vh;
 }
 
 .audio-container{
