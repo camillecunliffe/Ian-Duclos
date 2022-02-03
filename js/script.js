@@ -119,7 +119,7 @@
 
     $("#picture").append(randomImages[0]);
     $("#picture2").append(randomImages[1]);
-    $("#sounds1").playSound(mySounds[randomImages[2]]);
+    $("#sounds1").playSound(randomImages[2]);
 
 })();
 
