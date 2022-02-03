@@ -113,7 +113,7 @@
 
         return imgStringArray;
         print(imgStringArray) 
-        console.log(imgStringArray)
+        console.log(imgStringArray[3])
     }
 
     var randomImages = getRandomImages(images)
