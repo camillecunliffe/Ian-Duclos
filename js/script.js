@@ -120,7 +120,6 @@
 
     $("#picture").append(randomImages[0]);
     $("#picture2").append(randomImages[1]);
-    $("#sounds1").playSound(randomImages[2]);
+    $("#sounds1").append(randomImages[2]);
 
 })();
-
