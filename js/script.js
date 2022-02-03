@@ -62,11 +62,35 @@
         'img/wriedt_text.jpg',
     ];
 
+    mySounds = [    
+        'mp3/Almeida_poem_bg.mp3',
+        'mp3/Bernardo_combackground.mp3', 
+        'mp3/Borges_Poem_bg.mp3',
+        'mp3/Cao_poem_bg.mp3',
+        'mp3/Carvalho_poem_bg.mp3',
+        'mp3/Castro_poem_bg.mp3',
+        'mp3/Duclos_poem_bg.mp3',
+        'mp3/fernandes_diogo_bg.mp3',
+        'mp3/Ferreira_poem_bg.mp3',
+        'mp3/Fonseca_poem_bg.mp3',
+        'mp3/Fontes_poem_bg.mp3',
+        'mp3/Freitas_poem_bg.mp3',
+        'mp3/Gröpper_Poem_bg.mp3',
+        'mp3/guimaraes_poem_bg.mp3',
+        'mp3/Jesus_poem_bg.mp3',
+    
+    ];
+
+
     function getRandomImages(images) {
         var num = Math.floor(Math.random() * (images.length / 2)),
             pic = images[num * 2],
             pic2 = images[num * 2 + 1],
-            imgStringArray = ['<img src="' + pic + '" height="80%" width="auto" />', '<img src="' + pic2 + '" height="80%" width="auto" />'];
+            randomSound = mySounds[num]
+            imgStringArray = ['<img src="' + pic + '" height="80%" width="auto" />',
+                             '<img src="' + pic2 + '" height="80%" width="auto" />', 
+                             randomSound
+                            ];
 
         return imgStringArray;
         print(imgStringArray) 
@@ -76,47 +100,7 @@
 
     $("#picture").append(randomImages[0]);
     $("#picture2").append(randomImages[1]);
+    $("#sounds1").playSound(mySounds[randomImages[2]]);
 
 })();
-
-mySounds = [    
-'mp3/Almeida_poem_bg.mp3',
-'mp3/Almeida_poem.mp3',
-'mp3/Bernardo_combackground.mp3', 
-'mp3/Bernardo_sembackground.mp3', 
-'mp3/Borges_Poem_bg.mp3',
-'mp3/Borges_Poem.mp3',
-'mp3/Cao_poem_bg.mp3',
-'mp3/Cao_poem.mp3',
-'mp3/Carvalho_poem_.mp3',
-'mp3/Carvalho_poem.mp3',
-'mp3/Castro_poem_bg.mp3',
-'mp3/Castro_poem.mp3',
-'mp3/Duclos_poem_bg.mp3',
-'mp3/Duclos_poem.mp3',
-'mp3/fernandes_diogo_bg.mp3',
-'mp3/fernandes_diogo_poem.mp3',
-'mp3/Ferreira_poem_bg.mp3',
-'mp3/Ferreira_poem.mp3',
-'mp3/Fonseca_poem_bg.mp3',
-'mp3/Fonseca_poem.mp3',
-'mp3/Fontes_poem_bg.mp3',
-'mp3/Fontes_poem.mp3',
-'mp3/Freitas_poem_bg.mp3',
-'mp3/Freitas_poem.mp3',
-'mp3/Gröpper_Poem_bg.mp3',
-'mp3/Gröpper_Poem.mp3',
-'mp3/guimaraes_poem_bg.mp3',
-'mp3/guimaraes_poem.mp3',
-'mp3/Jesus_poem_bg.mp3',
-'mp3/Jesus_poem.mp3', ]
-
-function randomSound(sounds) {
-    var index = Math.floor(Math.random() * 1000) % mySounds.length,
-    sounds1 = sounds[num * 2],
-    sounds2 = sounds[num * 2 + 1];
-
-    $("#sounds1").playSound(mySounds[index]);
-    $("#sounds2").playSound(mySounds[index]);   
-}
 
